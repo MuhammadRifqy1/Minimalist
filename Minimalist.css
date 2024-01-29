@@ -1,0 +1,445 @@
+*{
+  font-family: Poppins;
+}
+
+header {
+  height: 30rem;
+  background: black;
+}
+
+.headline-background {
+  background: #0f0f0f;
+  border: 5px solid var(--bs-gray-900);
+  height: 25rem;
+  width: 90%;
+  color: white
+}
+
+.headline-container h1{
+  color: white ;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem ;
+}
+
+.headline-container h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem ;
+}
+
+.header-button{
+  font-size: 1.5rem !important;
+}
+
+.about{
+  background: #0f0f0f;
+  height: 45rem;
+}
+
+.about-title , .car-title{
+  font-size: 3rem;
+  color: white ;
+}
+
+.about-card{
+  background: var(--bs-gray-900) !important;
+}
+
+.place-img{
+  width: 95%;
+}
+
+.place-title , .instagram-text h4{
+  font-size: 2.5rem;
+}
+
+.place-desc{
+  font-size: 1.25rem
+}
+
+.place-button{
+  font-size: 1.25rem !important;
+}
+
+.divider{
+  height: 3rem;
+  background: linear-gradient(to bottom, var(--bs-gray-900), var(--bs-gray-800));
+}
+
+.car{
+  height: 45rem;
+  background: var(--bs-gray-800)
+}
+
+.car-caption{
+  font-size: 2.5rem;
+  color: var(--bs-gray-400)
+}
+
+.car-landscape{
+  width: 65%
+}
+
+.car-potrait{
+  width: 30%;
+  height: 35rem;
+}
+
+.car-1 , .car-2{
+  width: 100%;
+  height: 17rem;
+}
+
+.divider2{
+  height: 5rem;
+  background: linear-gradient(to bottom, var(--bs-gray-800), var(--bs-gray-700));
+}
+
+.instagram{
+  height: 35rem;
+  background: var(--bs-gray-700);
+}
+
+.instagram-text{
+  height: 30rem;
+  width: 90%;
+  background: maroon;
+}
+
+.instagram-text h3{
+  font-size: 3rem;
+}
+
+.instagram-text button{
+  font-size: 1.25rem;
+}
+
+.divider3{
+  height: 5rem;
+  background: linear-gradient(to bottom, var(--bs-gray-700), var(--bs-gray-800));
+}
+
+.contact{
+  background: var(--bs-gray-800);
+  height: 25rem;
+}
+
+.contact-list{
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1rem;
+  width: clamp(47rem, 59% , 100%);
+}
+
+.contact-title{
+  font-size: 4rem;
+}
+
+.contact-list h5{
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-left-animation{
+    animation: fadeInLeft 1s ease-in 0s 1 normal forwards;
+  }
+
+  .slide-left-animation{
+    animation: slideInLeft 1s ease 0s 1 normal forwards;
+  }
+
+  .fade-center-animation{
+    animation: fadeCenter 1s ease-in 0s 1 normal forwards;
+  }
+
+  .fade-up-animation{
+    animation: fadeUp 1s ease-in 0s 1 normal forwards;
+  }
+
+  .slide-up-animation{
+    animation: slideUp 1s ease-out 0s 1 normal forwards;
+  }
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeCenter {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeUp {
+  0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideUp {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 1200px) {
+
+  .headline-background{
+    width: 95%;
+    height: 20rem;
+  }
+
+  .headline-container h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 991px){
+
+  .instagram-text {
+    height: 23rem;
+    width: 95%;
+  }
+
+  .instagram-text h3 {
+    font-size: 2.5rem;
+  }
+
+  .instagram-text h4 {
+    font-size: 2rem;
+  }
+
+  .instagram-text img {
+    width: 16rem;
+  }
+
+  .contact-title{
+    font-size: 3.5rem;
+  }
+
+  .headline-container h1 {
+   font-size: 2.25rem;
+  }
+
+  .headline-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .headline-background{
+    height: 17.5rem;
+  }
+
+  .header-button{
+    font-size: 1.25rem !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .headline-background{
+    height: 14.5rem;
+  }
+
+  .headline-container h1 {
+    font-size: 1.75rem;
+  }
+
+  .headline-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .header-button {
+    font-size: 1rem !important;
+  }
+
+  .about{
+    height: 70rem;
+  }
+
+  .place-img {
+    width: 90%;
+  }
+
+  .car-caption {
+    font-size: 1.75rem;
+  }
+
+  .car-landscape {
+    height: 18rem;
+  }
+
+  .car-potrait {
+    height: 18rem;
+  }
+
+  .car {
+    height: 35rem;
+  }
+
+  .instagram-text h3 {
+    font-size: 2rem;
+  }
+
+  .instagram-text h4 {
+   font-size: 1.75rem;
+  }
+
+  .instagram-text button {
+    font-size: 1rem;
+  }
+
+  .contact-list{
+    grid-template-columns: 1fr;
+    width: clamp(18rem, 59% , 100%);
+  }
+
+}
+
+@media (max-width: 568px) {
+
+  header {
+    height: 16rem;
+  }
+
+  .headline-background {
+    height: 9.5rem;
+  }
+
+  .headline-container h1 {
+   font-size: 1.4rem;
+   margin-bottom: 0.25rem;
+  }
+
+  .headline-container h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .header-button {
+   font-size: 1rem !important;
+  }
+
+  .about {
+    height: 62rem;
+  }
+
+  .place-title{
+    font-size: 1.5rem;
+  }
+
+  .place-desc {
+    font-size: 1.15rem;
+  }
+
+  .place-button {
+    font-size: 1rem !important;
+  }
+
+  .about-title, .car-title {
+   font-size: 2rem;
+  }
+
+  .car {
+   height: 25rem;
+  }
+
+  .car-caption {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .car-landscape , .car-potrait {
+   height: 15rem;
+  }
+
+  .instagram-text h3 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .instagram-text h4 {
+    font-size: 1.5rem;
+  }
+
+  .instagram-text button {
+    margin-bottom: 7rem;
+  }
+
+  .contact-title{
+   font-size: 2rem;
+  }
+
+  .contact {
+    height: 28rem;
+  }
+
+  .contact-list {
+    width: clamp(23rem, 59% , 100%);
+  }
+
+  .contact-list h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 400px) {
+
+  header {
+    height: 11rem;
+  }
+
+  .headline-background {
+    height: 8.5rem;
+  }
+
+  .headline-container h1 {
+   font-size: 1.1rem;
+  }
+
+  .headline-container h2 {
+    font-size: 1rem;
+  }
+
+  .header-button {
+   font-size: 0.75rem !important;
+  }
+}
