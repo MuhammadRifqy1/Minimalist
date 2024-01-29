@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ManyCar.src = './assets/many-car.webp';
   }else if (screenWidth >=  567) {
       TireStack.src = './assets/tire-stack-md.webp';
-      CarFront.src = './assets/car-front-sm.png';
+      CarFront.src = './assets/car-front-sm.webp';
       Building.src = './assets/building.webp';
       CarBack.src = './assets/car-back.webp';
       Sedan.src = './assets/car-sedan.webp';
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ManyCar.src = './assets/many-car.webp';
   }else{
       TireStack.src = './assets/tire-stack-sm.webp';
-      CarFront.src = './assets/car-front-sm.png';
+      CarFront.src = './assets/car-front-sm.webp';
       Building.src = './assets/building-sm.webp';
       CarBack.src = './assets/car-back-sm.webp';
       Sedan.src = './assets/car-sedan-sm.webp';
